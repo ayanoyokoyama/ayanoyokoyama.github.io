@@ -7,7 +7,8 @@ has_gradient: true
 <section class="hero-center">
   <h1 class="hero-name"><span class="grad-poppy">Ayano Yokoyama</span></h1>
   <p class="hero-tagline">
-    Content Design & Localization · designing clear, human content with AI
+    Content Design & Localization<br>
+    Designing Clear, User Centric Content
   </p>
 
   <a href="#work" class="scroll-indicator" aria-label="Scroll to work">
