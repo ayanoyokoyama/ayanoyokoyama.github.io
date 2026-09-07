@@ -1,4 +1,4 @@
-# Content Design Portfolio (GitHub Pages)
+# Ayano's Portfolio (GitHub Pages)
 
 This repo hosts my portfolio at `https://ayanoyokoyama.github.io`.
 
