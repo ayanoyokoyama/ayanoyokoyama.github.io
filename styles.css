@@ -39,6 +39,8 @@ h1 em, footer h2 em { color: var(--acid); font-family: Georgia, serif; font-weig
 .tags li { border: 1px solid currentColor; border-radius: 30px; padding: 6px 10px; font-size: 11px; }
 .project-art { transition: .35s ease; position: relative; margin: 0 4vw; min-height: 350px; overflow: hidden; border-radius: 2px; background:#f7f7f5; }
 .project-art img { width:100%; height:100%; min-height:350px; object-fit:cover; object-position:center; display:block; }
+.project-art.project-art-phone { display:grid; place-items:center; padding:20px; }
+.project-art.project-art-phone img { width:min(100%, 270px); height:auto; min-height:0; border-radius:12px; }
 .lime { background:#ededeb; }.lime .project-art { background:#c4c4c0; }
 .coral { background:#d9d9d4; }.coral .project-art { background:#a3a3a0; }
 .blue { background:#bdbdb9; }.blue .project-art { background:#555554; }
