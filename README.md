@@ -1,4 +1,4 @@
-# Ayano Yokoyama · Content Design Portfolio
+# Ayano Yokoyama · UX & Content Design Portfolio
 
 [Portfolio on GitHub Pages](https://ayanoyokoyama.github.io/)
 
