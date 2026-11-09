@@ -1,18 +1,21 @@
-# Content Design Portfolio (GitHub Pages)
+# Ayano Yokoyama · Content Design Portfolio
 
-This repo hosts my portfolio at `https://ayanoyokoyama.github.io`.
+[Portfolio on GitHub Pages](https://ayanoyokoyama.github.io/)
 
-## Structure
-- `index.md` — homepage
-- `about.md` — about page
-- `projects/<project>/index.md` — case studies
-- `style.css` — minimal custom styles
-- `_config.yml` — site config (theme, SEO)
+The portfolio on this branch is a static HTML page. GitHub Pages serves the files directly with `.nojekyll`.
 
-## Local dev (optional)
-You don’t need local build, but if you want to run Jekyll:
-```bash
-gem install bundler jekyll
-bundle exec jekyll serve
+- `index.html` contains the homepage, project cards, and case studies.
+- `styles.css` controls the layout and visual styling.
+- `assets/` contains project images and icons.
+
+When editing a project, keep its card link and case study ID in sync. The repository also contains earlier Jekyll layouts and Markdown drafts.
+
+## Preview locally
+
+From this folder, run:
+
+```sh
+python3 -m http.server 8000
 ```
-Then open `http://localhost:4000`.
+
+Open [the local preview](http://localhost:8000/).
