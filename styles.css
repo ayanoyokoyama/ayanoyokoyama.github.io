@@ -86,6 +86,8 @@ footer { background:#171717; color:var(--cream); padding: 8vw 8vw 2vw; }
 footer h2 { font-size:clamp(49px,7vw,106px); line-height:.92; letter-spacing:-.08em; margin:35px 0 50px; }
 .email { display:inline-block; font-size:clamp(19px,2.5vw,35px); border-bottom:2px solid var(--acid); padding-bottom:7px; }
 .email span { color:var(--acid); margin-left:8px; }
+.contact-links { display:flex; flex-wrap:wrap; gap:12px 24px; margin-top:24px; }
+.contact-links a { font-size:16px; text-decoration:underline; text-underline-offset:4px; }
 .footer-bottom { margin-top: 12vw; border-top:1px solid rgba(244,241,232,.28); padding-top:18px; display:flex; justify-content:space-between; font-size:11px; color:rgba(244,241,232,.7); }
 .footer-bottom div { display:flex; gap:18px; }
 @media (max-width: 700px) {
